@@ -1,0 +1,11 @@
+database,datasource,tablename,loadtype,watermark,is_active,targetpath
+hospital_a_db,data-pipeline-db-server,encounters,Incremental,ModifiedDate,1,hospital-a
+hospital_a_db,data-pipeline-db-server,patients,Incremental,ModifiedDate,1,hospital-a
+hospital_a_db,data-pipeline-db-server,transactions,Incremental,ModifiedDate,1,hospital-a
+hospital_a_db,data-pipeline-db-server,providers,Full,,1,hospital-a
+hospital_a_db,data-pipeline-db-server,departments,Full,,1,hospital-a
+hospital_b_db,data-pipeline-db-server,encounters,Incremental,ModifiedDate,1,hospital-b
+hospital_b_db,data-pipeline-db-server,patients,Incremental,ModifiedDate,1,hospital-b
+hospital_b_db,data-pipeline-db-server,transactions,Incremental,ModifiedDate,1,hospital-b
+hospital_b_db,data-pipeline-db-server,providers,Full,,1,hospital-b
+hospital_b_db,data-pipeline-db-server,departments,Full,,1,hospital-b
